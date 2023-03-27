@@ -1,0 +1,118 @@
+[Device Install Log]
+     OS Version = 10.0.20348
+     Service Pack = 0.0
+     Suite = 0x0190
+     ProductType = 3
+     Architecture = amd64
+
+[BeginLog]
+
+[Boot Session: 2023/03/24 12:23:04.500]
+
+>>>  [Sysprep Respecialize - {ec26cf1d-740b-81f6-6b21-c7ab66501867}]
+>>>  Section start 2023/03/24 12:23:21.838
+     set: System Information:
+     set:      BIOS Release Date: 10/16/2017
+     set:      BIOS Vendor: Amazon EC2
+     set:      BIOS Version: 1.0
+     set:      System Manufacturer: Amazon EC2
+     set:      System Product Name: t3.2xlarge
+     set: {Device Install} 12:23:21.935
+     set:      Persisting installed devices.
+     set:      DeviceInstall service already running. 12:23:21.935
+     set:      Waiting for pending device installs... 12:23:21.935
+     set:      Completed pending device installs. 12:23:21.935
+     set:      LPTENUM\MICROSOFTRAWPORT\5&DDE82D&0&LPT1 -> Configured [machine.inf:LPTENUM\MicrosoftRawPort958A,NO_DRV] and started (ConfigFlags = 0x00000000).
+!    set:      ACPI\PNP0C02\1 -> Configured [machine.inf:*PNP0C02,NO_DRV_MBRES] and non-present (ConfigFlags = 0x00000000).
+!    set:      ACPI\PNP0F13\4&2C352A27&0 -> Configured [msmouse.inf:*PNP0F13,PS2_Inst] and non-present (ConfigFlags = 0x00000000).
+!    set:      PCI\VEN_5853&DEV_0001&SUBSYS_00015853&REV_01\3&267A616A&0&18 -> Configured [oem0.inf:PCI\VEN_5853&DEV_0001,XenBus_Inst] and non-present (ConfigFlags = 0x00000000).
+     set:      PCI\VEN_1D0F&DEV_EC20&SUBSYS_00000000&REV_00\3&13C0B0C5&1&28 -> Configured [oem3.inf:PCI\VEN_1D0F&DEV_EC20&SUBSYS_00000000,ena.dev.10.0] and started (ConfigFlags = 0x00000000).
+!    set:      ACPI\PNP0700\4&2C352A27&0 -> Configured [fdc.inf:*PNP0700,fdc_install.NT] and non-present (ConfigFlags = 0x00000000).
+!    set:      SWD\PRINTENUM\PRINTQUEUES -> Configured [printqueue.inf:PRINTENUM\LocalPrintQueue,NO_DRV_LOCAL] and non-present (ConfigFlags = 0x00000000).
+     set:      ROOT\VOLMGR\0000 -> Configured [volmgr.inf:ROOT\VOLMGR,Volmgr] and started (ConfigFlags = 0x00000000).
+!    set:      SWD\PRINTENUM\{71A79BB7-93FC-403E-85DA-40A22D929ED8} -> Configured [printqueue.inf:PRINTENUM\LocalPrintQueue,NO_DRV_LOCAL] and non-present (ConfigFlags = 0x00000000).
+!    set:      ACPI\GENUINEINTEL_-_INTEL64_FAMILY_6_MODEL_62_-_______INTEL(R)_XEON(R)_CPU_E5-2670_V2_@_2.50GHZ\_0 -> Configured [cpu.inf:ACPI\GenuineIntel_-_Intel64,IntelPPM_Inst.NT] and non-present (ConfigFlags = 0x00000000).
+!    set:      ACPI\GENUINEINTEL_-_INTEL64_FAMILY_6_MODEL_62_-_______INTEL(R)_XEON(R)_CPU_E5-2670_V2_@_2.50GHZ\_1 -> Configured [cpu.inf:ACPI\GenuineIntel_-_Intel64,IntelPPM_Inst.NT] and non-present (ConfigFlags = 0x00000000).
+!    set:      ACPI\GENUINEINTEL_-_INTEL64_FAMILY_6_MODEL_62_-_______INTEL(R)_XEON(R)_CPU_E5-2670_V2_@_2.50GHZ\_2 -> Configured [cpu.inf:ACPI\GenuineIntel_-_Intel64,IntelPPM_Inst.NT] and non-present (ConfigFlags = 0x00000000).
+!    set:      ACPI\GENUINEINTEL_-_INTEL64_FAMILY_6_MODEL_62_-_______INTEL(R)_XEON(R)_CPU_E5-2670_V2_@_2.50GHZ\_3 -> Configured [cpu.inf:ACPI\GenuineIntel_-_Intel64,IntelPPM_Inst.NT] and non-present (ConfigFlags = 0x00000000).
+!    set:      PCI\VEN_1D0F&DEV_1111&SUBSYS_00000000&REV_00\3&13C0B0C5&0&18 -> Configured [display.inf:PCI\CC_0300,MSBDA] and non-present (ConfigFlags = 0x00000000).
+!    set:      SCSI\DISK&VEN_AWS&PROD_PVDISK\5&445A993&0&004E00 -> Configured [disk.inf:GenDisk,disk_install.NT] and non-present (ConfigFlags = 0x00000000).
+!    set:      SCSI\DISK&VEN_AWS&PROD_PVDISK\5&445A993&0&004F00 -> Configured [disk.inf:GenDisk,disk_install.NT] and non-present (ConfigFlags = 0x00000000).
+     set:      ROOT\BASICDISPLAY\0000 -> Configured [basicdisplay.inf:ROOT\BasicDisplay,MSBDD_Fallback] and started (ConfigFlags = 0x00000000).
+!    set:      ACPI\PNP0B00\4&2C352A27&0 -> Configured [machine.inf:*PNP0B00,NO_DRV_X] and non-present (ConfigFlags = 0x00000000).
+!    set:      DISPLAY\DEFAULT_MONITOR\4&251819FC&0&UID0 -> Configured [monitor.inf:MONITOR\Default_Monitor,NonPnPMonitor.Install] and non-present (ConfigFlags = 0x00000000).
+     set:      UMB\UMB\1&841921D&0&TERMINPUT_BUS -> Configured [umbus.inf:UMB\UMBUS,UmBus_Device.NT] and started (ConfigFlags = 0x00000000).
+     set:      STORAGE\VOLUME\{98F27ECC-CA3B-11ED-B9ED-806E6F6E6963}#0000000000100000 -> Configured [volume.inf:STORAGE\Volume,volume_install.NT] and started (ConfigFlags = 0x00000000).
+!    set:      ACPI\PNP0000\4&2C352A27&0 -> Configured [machine.inf:*PNP0000,NO_DRV_PIC] and non-present (ConfigFlags = 0x00000000).
+!    set:      ACPI\PNP0303\4&2C352A27&0 -> Configured [keyboard.inf:*PNP0303,STANDARD_Inst] and non-present (ConfigFlags = 0x00000000).
+!    set:      PCI\VEN_1013&DEV_00B8&SUBSYS_00015853&REV_00\3&267A616A&0&10 -> Configured [display.inf:PCI\CC_0300,MSBDA] and non-present (ConfigFlags = 0x00000000).
+     set:      ACPI\AMZN0000\2&DABA3FF&0 -> Configured [wgencounter.inf:VM_Gen_Counter,VmGenCounter.NT] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\PNP0103\0 -> Configured [machine.inf:*PNP0103,NO_DRV_HPET] (ConfigFlags = 0x00000000).
+     set:      ROOT\COMPOSITEBUS\0000 -> Configured [compositebus.inf:ROOT\CompositeBus,CompositeBus_Device.NT] and started (ConfigFlags = 0x00000000).
+     set:      ROOT\VDRVROOT\0000 -> Configured [vdrvroot.inf:ROOT\vdrvroot,VDRVROOT] and started (ConfigFlags = 0x00000000).
+!    set:      XENBUS\VEN_XS0001&DEV_VIF&REV_00000003\_ -> Configured [oem4.inf:XENBUS\VEN_XS0001&DEV_VIF&REV_00000003,XenVif_Inst] and non-present (ConfigFlags = 0x00000000).
+     set:      ROOT\SPACEPORT\0000 -> Configured [spaceport.inf:Root\Spaceport,Spaceport_Install] and started (ConfigFlags = 0x00000000).
+     set:      PCI\VEN_1D0F&DEV_1111&SUBSYS_00000000&REV_00\3&13C0B0C5&1&18 -> Configured [display.inf:PCI\CC_0300,MSBDA] and started (ConfigFlags = 0x00000000).
+!    set:      SWD\PRINTENUM\{83F4BA03-754E-4A71-9E6F-A28DD0084C95} -> Configured [printqueue.inf:PRINTENUM\LocalPrintQueue,NO_DRV_LOCAL] and non-present (ConfigFlags = 0x00000000).
+!    set:      ACPI\PNP0200\4&2C352A27&0 -> Configured [machine.inf:*PNP0200,NO_DRV_X] and non-present (ConfigFlags = 0x00000000).
+!    set:      PCI\VEN_8086&DEV_1237&SUBSYS_11001AF4&REV_02\3&267A616A&0&00 -> Configured [machine.inf:PCI\VEN_8086&DEV_1237,NO_DRV] and non-present (ConfigFlags = 0x00000000).
+     set:      ACPI\PNP0501\1 -> Configured [msports.inf:*PNP0501,ComPort.NT] and started (ConfigFlags = 0x00000000).
+     set:      ROOT\KDNIC\0000 -> Configured [kdnic.inf:root\kdnic,KdNic.ndi] and started (ConfigFlags = 0x00000000).
+!    set:      SCSI\DISK&VEN_AWS&PROD_PVDISK\5&445A993&0&000000 -> Configured [disk.inf:GenDisk,disk_install.NT] and non-present (ConfigFlags = 0x00000000).
+     set:      ROOT\UMBUS\0000 -> Configured [umbus.inf:root\umbus,UmBusRoot_Device.NT] and started (ConfigFlags = 0x00000000).
+     set:      SWD\RADIO\{3DB5895D-CC28-44B3-AD3D-6F01A782B8D2} -> Configured [c_swdevice.inf:SWD\GenericRaw,SoftwareDevice] and started (ConfigFlags = 0x00000000).
+     set:      ROOT\ACPI_HAL\0000 -> Configured [hal.inf:acpiapic,ACPI_AMD64_HAL] and started (ConfigFlags = 0x00000000).
+!    set:      ACPI\PNP0A03\0 -> Configured [pci.inf:*PNP0A03,PCI_ROOT] and non-present (ConfigFlags = 0x00000000).
+     set:      ACPI\PNP0A03\1 -> Configured [pci.inf:*PNP0A03,PCI_ROOT] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\PNP0F13\4&1D1DFBC1&0 -> Configured [msmouse.inf:*PNP0F13,PS2_Inst] and started (ConfigFlags = 0x00000000).
+!    set:      XENBUS\VEN_XS0001&DEV_IFACE&REV_00000003\_ -> Configured [oem1.inf:XENBUS\VEN_XS0001&DEV_IFACE&REV_00000001,XenIface_Device.NTamd64] and non-present (ConfigFlags = 0x00000000).
+     set:      ACPI\GENUINEINTEL_-_INTEL64_FAMILY_6_MODEL_85_-_INTEL(R)_XEON(R)_PLATINUM_8259CL_CPU_@_2.50GHZ\_0 -> Configured [cpu.inf:ACPI\GenuineIntel_-_Intel64,IntelPPM_Inst.NT] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\GENUINEINTEL_-_INTEL64_FAMILY_6_MODEL_85_-_INTEL(R)_XEON(R)_PLATINUM_8259CL_CPU_@_2.50GHZ\_1 -> Configured [cpu.inf:ACPI\GenuineIntel_-_Intel64,IntelPPM_Inst.NT] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\GENUINEINTEL_-_INTEL64_FAMILY_6_MODEL_85_-_INTEL(R)_XEON(R)_PLATINUM_8259CL_CPU_@_2.50GHZ\_2 -> Configured [cpu.inf:ACPI\GenuineIntel_-_Intel64,IntelPPM_Inst.NT] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\GENUINEINTEL_-_INTEL64_FAMILY_6_MODEL_85_-_INTEL(R)_XEON(R)_PLATINUM_8259CL_CPU_@_2.50GHZ\_3 -> Configured [cpu.inf:ACPI\GenuineIntel_-_Intel64,IntelPPM_Inst.NT] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\GENUINEINTEL_-_INTEL64_FAMILY_6_MODEL_85_-_INTEL(R)_XEON(R)_PLATINUM_8259CL_CPU_@_2.50GHZ\_4 -> Configured [cpu.inf:ACPI\GenuineIntel_-_Intel64,IntelPPM_Inst.NT] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\GENUINEINTEL_-_INTEL64_FAMILY_6_MODEL_85_-_INTEL(R)_XEON(R)_PLATINUM_8259CL_CPU_@_2.50GHZ\_5 -> Configured [cpu.inf:ACPI\GenuineIntel_-_Intel64,IntelPPM_Inst.NT] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\GENUINEINTEL_-_INTEL64_FAMILY_6_MODEL_85_-_INTEL(R)_XEON(R)_PLATINUM_8259CL_CPU_@_2.50GHZ\_6 -> Configured [cpu.inf:ACPI\GenuineIntel_-_Intel64,IntelPPM_Inst.NT] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\GENUINEINTEL_-_INTEL64_FAMILY_6_MODEL_85_-_INTEL(R)_XEON(R)_PLATINUM_8259CL_CPU_@_2.50GHZ\_7 -> Configured [cpu.inf:ACPI\GenuineIntel_-_Intel64,IntelPPM_Inst.NT] and started (ConfigFlags = 0x00000000).
+     set:      ACPI_HAL\PNP0C08\0 -> Configured [acpi.inf:*PNP0C08,ACPI_Inst.NT] and started (ConfigFlags = 0x00000000).
+     set:      ROOT\BASICRENDER\0000 -> Configured [basicrender.inf:ROOT\BasicRender,BasicRender] and started (ConfigFlags = 0x00000000).
+!    set:      XENVIF\VEN_XS0001&DEV_NET&REV_0000000B\0 -> Configured [oem2.inf:XENVIF\VEN_XS0001&DEV_NET&REV_00000000,XenNet_Inst] and non-present (ConfigFlags = 0x00000000).
+!    set:      PCI\VEN_8086&DEV_10ED&SUBSYS_00000000&REV_01\3&267A616A&0&18 -> Configured [oem80.inf:PCI\VEN_8086&DEV_10ED,VF8086] and non-present (ConfigFlags = 0x00000000).
+     set:      PCI\VEN_8086&DEV_7000&SUBSYS_00000000&REV_00\3&13C0B0C5&1&08 -> Configured [machine.inf:PCI\VEN_8086&DEV_7000,MSISADRV] and started (ConfigFlags = 0x00000000).
+     set:      DISPLAY\DEFAULT_MONITOR\4&6798829&0&UID0 -> Configured [monitor.inf:MONITOR\Default_Monitor,NonPnPMonitor.Install] and started (ConfigFlags = 0x00000000).
+!    set:      ACPI\PNP0800\4&2C352A27&0 -> Configured [machine.inf:*PNP0800,NO_DRV_X] and non-present (ConfigFlags = 0x00000000).
+!    set:      ACPI\GENUINEINTEL_-_INTEL64_FAMILY_6_MODEL_79_-_INTEL(R)_XEON(R)_CPU_E5-2686_V4_@_2.30GHZ\_0 -> Configured [cpu.inf:ACPI\GenuineIntel_-_Intel64,IntelPPM_Inst.NT] and non-present (ConfigFlags = 0x00000000).
+!    set:      ACPI\GENUINEINTEL_-_INTEL64_FAMILY_6_MODEL_79_-_INTEL(R)_XEON(R)_CPU_E5-2686_V4_@_2.30GHZ\_1 -> Configured [cpu.inf:ACPI\GenuineIntel_-_Intel64,IntelPPM_Inst.NT] and non-present (ConfigFlags = 0x00000000).
+!    set:      ACPI\GENUINEINTEL_-_INTEL64_FAMILY_6_MODEL_79_-_INTEL(R)_XEON(R)_CPU_E5-2686_V4_@_2.30GHZ\_2 -> Configured [cpu.inf:ACPI\GenuineIntel_-_Intel64,IntelPPM_Inst.NT] and non-present (ConfigFlags = 0x00000000).
+!    set:      ACPI\GENUINEINTEL_-_INTEL64_FAMILY_6_MODEL_79_-_INTEL(R)_XEON(R)_CPU_E5-2686_V4_@_2.30GHZ\_3 -> Configured [cpu.inf:ACPI\GenuineIntel_-_Intel64,IntelPPM_Inst.NT] and non-present (ConfigFlags = 0x00000000).
+     set:      ACPI\FIXEDBUTTON\2&DABA3FF&0 -> Configured [machine.inf:ACPI\FixedButton,NO_DRV] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\PNP0B00\4&1D1DFBC1&0 -> Configured [machine.inf:*PNP0B00,NO_DRV_X] and started (ConfigFlags = 0x00000000).
+     set:      SCSI\DISK&VEN_NVME&PROD_AMAZON_ELASTIC_B\4&3744FC08&0&000000 -> Configured [disk.inf:GenDisk,disk_install.NT] and started (ConfigFlags = 0x00000000).
+!    set:      PCI\VEN_8086&DEV_7010&SUBSYS_00015853&REV_00\3&267A616A&0&09 -> Configured [mshdc.inf:PCI\VEN_8086&DEV_7010,intelide_Inst] and non-present (ConfigFlags = 0x00000000).
+     set:      ACPI\PNP0303\4&1D1DFBC1&0 -> Configured [keyboard.inf:*PNP0303,STANDARD_Inst] and started (ConfigFlags = 0x00000000).
+!    set:      ACPI\PNP0100\4&2C352A27&0 -> Configured [machine.inf:*PNP0100,NO_DRV_X] and non-present (ConfigFlags = 0x00000000).
+     set:      ROOT\NDISVIRTUALBUS\0000 -> Configured [ndisvirtualbus.inf:ROOT\NdisVirtualBus,NdisVirtualBus_Device.NT] and started (ConfigFlags = 0x00000000).
+!    set:      STORAGE\VOLUME\{3C894EEF-1637-11EC-B8ED-806E6F6E6963}#0000000000100000 -> Configured [volume.inf:STORAGE\Volume,volume_install.NT] and non-present (ConfigFlags = 0x00000000).
+!    set:      PCI\VEN_8086&DEV_7000&SUBSYS_11001AF4&REV_00\3&267A616A&0&08 -> Configured [machine.inf:PCI\VEN_8086&DEV_7000,MSISADRV] and non-present (ConfigFlags = 0x00000000).
+!    set:      PCIIDE\IDECHANNEL\4&80D05ED&0&0 -> Configured [mshdc.inf:Internal_IDE_Channel,atapi_Inst_Server] and non-present (ConfigFlags = 0x00000000).
+!    set:      PCIIDE\IDECHANNEL\4&80D05ED&0&1 -> Configured [mshdc.inf:Internal_IDE_Channel,atapi_Inst_Server] and non-present (ConfigFlags = 0x00000000).
+     set:      ACPI\PNP0400\4&1D1DFBC1&0 -> Configured [msports.inf:*PNP0400,LptPort.NT] and started (ConfigFlags = 0x00000000).
+     set:      PCI\VEN_1D0F&DEV_8061&SUBSYS_80611D0F&REV_00\3&13C0B0C5&1&20 -> Configured [oem83.inf:PCI\VEN_1D0F&DEV_8061,AWSNVMe_Inst.10.0_EBS] and started (ConfigFlags = 0x00000000).
+     set:      ROOT\MSSMBIOS\0000 -> Configured [mssmbios.inf:ROOT\mssmbios,MSSMBIOS_DRV] and started (ConfigFlags = 0x00000000).
+     set:      PCI\VEN_8086&DEV_1237&SUBSYS_12371D0F&REV_00\3&13C0B0C5&1&00 -> Configured [machine.inf:PCI\VEN_8086&DEV_1237,NO_DRV] and started (ConfigFlags = 0x00000000).
+     set:      ROOT\SYSTEM\0000 -> Configured [swenum.inf:ROOT\SWENUM,SWENUM] and started (ConfigFlags = 0x00000000).
+     set:      ROOT\SYSTEM\0001 -> Configured [oem5.inf:root\ec2winutildriver,EC2WinUtilDriver.Inst] and started (ConfigFlags = 0x00000000).
+     set:      ROOT\RDPBUS\0000 -> Configured [rdpbus.inf:ROOT\RDPBUS,RDPBUS] and started (ConfigFlags = 0x00000000).
+!    set:      ACPI\PNP0C02\2&DABA3FF&0 -> Configured [machine.inf:*PNP0C02,NO_DRV_MBRES] and non-present (ConfigFlags = 0x00000000).
+!    set:      XENBUS\VEN_XS0001&DEV_VBD&REV_00000001\_ -> Configured [oem3.inf:XENBUS\VEN_XS0001&DEV_VBD&REV_00000001,XenVbd_Inst.6.2] and non-present (ConfigFlags = 0x00000000).
+     set:      Devices pre-configured: 0
+     set:      Devices pre-installed: 0
+     set:      Devices need install: 0
+     set:      Devices configured: 83 (71 internal, 12 external)
+     set:      Devices installed: 0
+     set:      Devices non-present: 40 (29 internal, 11 external)
+     set: {Device Install - exit(0x00000000)} 12:23:21.981
+     set: Installed devices. Time = 47 ms. 12:23:21.981
+<<<  Section end 2023/03/24 12:23:21.987
+<<<  [Exit status: SUCCESS]
+
